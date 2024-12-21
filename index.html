@@ -1,0 +1,185 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Food Mood
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #d8c68d;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background-color: #f7f5e6;
+            width: 80%;
+            max-width: 1200px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            position: relative;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+        .navbar a {
+            text-decoration: none;
+            color: #6e6e6e;
+            margin: 0 15px;
+            font-size: 16px;
+        }
+        .navbar a:hover {
+            color: #000;
+        }
+        .navbar .icons {
+            display: flex;
+            align-items: center;
+        }
+        .navbar .icons i {
+            margin-left: 15px;
+            font-size: 18px;
+            color: #6e6e6e;
+        }
+        .content {
+            display: flex;
+            align-items: center;
+            padding: 50px;
+            position: relative;
+        }
+        .content .text {
+            max-width: 50%;
+        }
+        .content .text h1 {
+            font-size: 48px;
+            margin: 0;
+            color: #000;
+        }
+        .content .text h1 span {
+            color: #e3b23c;
+        }
+        .content .text p {
+            font-size: 18px;
+            color: #6e6e6e;
+            margin: 20px 0;
+        }
+        .content .text button {
+            background-color: #e3b23c;
+            border: none;
+            padding: 15px 30px;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .content .text button:hover {
+            background-color: #d1a32a;
+        }
+        .content .image {
+            max-width: 50%;
+            text-align: right;
+        }
+        .content .image img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .background-shapes {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+        .background-shapes img {
+            position: absolute;
+        }
+        .shape1 {
+            top: 10%;
+            left: 5%;
+            width: 200px;
+        }
+        .shape2 {
+            top: 50%;
+            right: 10%;
+            width: 300px;
+        }
+        .shape3 {
+            bottom: 10%;
+            left: 20%;
+            width: 150px;
+        }
+        .shape4 {
+            top: 30%;
+            right: 30%;
+            width: 100px;
+        }
+  </style>
+ </head>
+ <body>
+  <div class="container">
+   <div class="navbar">
+    <div class="links">
+     <a href="#">
+      Home
+     </a>
+     <a href="#">
+      About us
+     </a>
+     <a href="#">
+      Blog
+     </a>
+     <a href="#">
+      Contact
+     </a>
+    </div>
+    <div class="icons">
+     <i class="fas fa-shopping-cart">
+     </i>
+     <i class="fas fa-user">
+     </i>
+    </div>
+   </div>
+   <div class="content">
+    <div class="text">
+     <h1>
+      good
+      <span>
+       food
+      </span>
+      ,
+      <br/>
+      good mood!
+     </h1>
+     <p>
+      Are your hungry? Don't wait!
+
+      <br/>
+      Let's start to order now!
+     </p>
+     <button>
+      OUR MENU
+     </button>
+    </div>
+    <div class="image">
+     <img alt="A wooden bowl with dumplings and chopsticks" height="400" src="https://storage.googleapis.com/a1aa/image/9zWWyjIpcewOSqnPgTQuyNkbIfdfeCXrzfFC4Dto57ttHEofE.jpg" width="400"/>
+    </div>
+   </div>
+   <div class="background-shapes">
+    <img alt="Decorative shape" class="shape1" height="200" src="https://storage.googleapis.com/a1aa/image/DcL2eJKteeBpeSUVFVpAuKMbzNEzisZfaDBg6fll3YY5PIQfJA.jpg" width="200"/>
+    <img alt="Decorative shape" class="shape2" height="300" src="https://storage.googleapis.com/a1aa/image/DcL2eJKteeBpeSUVFVpAuKMbzNEzisZfaDBg6fll3YY5PIQfJA.jpg" width="300"/>
+    <img alt="Decorative shape" class="shape3" height="150" src="https://storage.googleapis.com/a1aa/image/DcL2eJKteeBpeSUVFVpAuKMbzNEzisZfaDBg6fll3YY5PIQfJA.jpg" width="150"/>
+    <img alt="Decorative shape" class="shape4" height="100" src="https://storage.googleapis.com/a1aa/image/DcL2eJKteeBpeSUVFVpAuKMbzNEzisZfaDBg6fll3YY5PIQfJA.jpg" width="100"/>
+   </div>
+  </div>
+ </body>
+</html>
